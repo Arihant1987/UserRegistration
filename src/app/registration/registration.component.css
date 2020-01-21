@@ -1,0 +1,12 @@
+table {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+table thead {
+    background-color: rgb(105, 252, 252);
+}
+
+table tr th {
+  padding: 10px;
+}
