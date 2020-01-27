@@ -9,6 +9,7 @@ import { HelloComponent } from './hello.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   imports:      [ 
@@ -17,9 +18,10 @@ import { HomeComponent } from './home/home.component';
   NgbModule,
   RouterModule.forRoot([
     {path: '', component: HomeComponent},
-    {path: 'registration', component: RegistrationComponent}
+    {path: 'registration', component: RegistrationComponent},
+    {path: 'login', component: LoginComponent}
   ]) ],
-  declarations: [ AppComponent, HelloComponent, NavbarComponent, RegistrationComponent, HomeComponent ],
+  declarations: [ AppComponent, HelloComponent, NavbarComponent, RegistrationComponent, HomeComponent, LoginComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
